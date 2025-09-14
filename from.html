@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8" />
+  <title>ฟอร์มลงทะเบียนนักเรียน</title>
+</head>
+<body>
+  <h2>กรอกข้อมูลนักเรียน</h2>
+  <form action="insert.php" method="post">
+    ชื่อ: <input type="text" name="firstname" required><br><br>
+    นามสกุล: <input type="text" name="lastname" required><br><br>
+    รหัสประจำตัว: <input type="text" name="student_id" required><br><br>
+    เลขที่: <input type="number" name="number" required><br><br>
+    ชั้น: <input type="text" name="class" required><br><br>
+    <input type="submit" value="บันทึกข้อมูล">
+  </form>
+</body>
+</html>
